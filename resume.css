@@ -1,0 +1,27 @@
+img{
+    border-radius: 250vw;
+    width: 150px;
+    padding-bottom: 100px;
+    margin-left: 800px;
+    display: block;}
+.main-title{ display: block;
+    padding-top:20px ;
+    padding-left: 10px;
+    color: aliceblue;
+background-color: rgb(177, 166, 201);}
+header{ background-color:rgb(177, 166, 201);}
+h1{ background-color: beige;}   
+.w{color: green;
+}
+.e{color: blue;
+padding-left: 20px;}
+.p{font-style: oblique;
+    padding-top: -50px;}
+.ga{display: flex; 
+    gap: 10px;
+    margin-top: -30px;}
+.j{padding-left: 40px;
+  padding-top: 20px;
+margin-left: -15px;}
+.github{padding-left: 30px;
+        padding-top: 20px;}
