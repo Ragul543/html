@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+
+  
+}
+
+    
+body{
+    background-image:url(" https://images.unsplash.com/photo-1542281286-9e0a16bb7366?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D");
+        
+    display: flex;
+    justify-content: center;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* background- */
+}
+.pclass{
+    width: 450px;
+    height: 420px;
+    box-shadow: inset 40px 20px 60px 60px rgb(90, 202, 236),inset -160px -100px 80px 140px rgb(23, 19, 104);
+    border-radius: 25px;
+    text-align: center;
+   opacity: 85%;
+    
+    padding: 10px;
+    margin-top: 130px;
+    flex-wrap: wrap;
+}
+.pclass div{
+    text-align: start;
+    margin-left: 50px;
+    justify-content: center;
+    width: 350px;
+    margin-top: 20px;
+    padding: 10px;
+    border-bottom:2px solid white ;
+}
+
+input{
+    background-color:transparent;
+    border: 0;
+    width: 300px;
+    height: 30px;
+    border: transparent;
+    
+}
+input::placeholder {
+    
+    color: white;
+}
+h1{margin-top: 20px;
+    color: white;
+}
+i{ margin-right: 8px;
+    color: white;
+}
+button{
+    margin-top: 40px;
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border: 0;
+    border-radius: 25px;
+    font-weight: 400;
+
+}
+P{
+    margin-top: 50PX;
+    color: white;
+    font-size: small;
+}
