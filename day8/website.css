@@ -1,0 +1,77 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:thistle;
+
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    justify-content: center;
+    height: 500px;
+    
+
+}
+.signin{
+    margin-top: 180px;
+    padding: 20px;
+   
+    background-color: white;
+}
+.singup{
+    background-color: tomato;
+    margin-top: 180px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+.singup h1{
+    margin-top: 70px;
+}
+.singup button{
+    width: 80px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: tomato;
+    border: 2px solid white;
+    color: white;
+}
+i{padding: 3px;
+    color: tomato;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#one{
+    margin-left: 130px;
+}
+.forget{
+    display: flex;
+}
+.forget a{
+    margin-left: 25px;
+    text-decoration: none;
+    color: black;
+}
+input{padding: 5px;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: wheat;
+    border: 2px;
+    
+}
+.but{
+    margin-top: 20px;
+    width: 250px;
+    background-color: tomato;
+    color: white;
+    padding: 5px;
+    border-radius: 25px;
+    border: 2px;
+    ht
+}

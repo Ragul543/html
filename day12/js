@@ -1,0 +1,12 @@
+Basic fundamentals of javascript;
+.Varabiles:
+        named memory storage
+..variables types
+var:
+var means variables
+var rules 
+ .if we reassign the value of same varabile name only the updated value will return
+ 
+
+let:
+const:

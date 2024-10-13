@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            color: white;
+        }
+        .heeader{
+            background-color: black;
+            padding-top: 8PX;
+            display: flex;
+            flex-wrap: wrap;
+            height: 80px;
+            border: 2px solid black;
+            justify-content: space-between;
+             
+           
+
+        }
+        a{
+            text-decoration: none;
+        }
+        ul{
+            display: flex;
+            text-decoration: none;
+            margin-right: 20px;
+            margin-top: 10px;
+        }
+        li{
+            display: flex;
+            text-decoration: none;
+            padding: 10px;
+            
+            
+
+        }
+        h2{padding: 10px;
+            margin-left:20px ;
+            margin-top: 5px;
+        }
+.book{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    margin: 8px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="heeader">
+        <h2>layout</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="/day2/form.html" >Form</a></li>
+        </ul>
+    </div>
+    <section class="head" id="home">
+    <div class="book">
+        <h1>Home</h1>
+    </div>
+    <div class="book"  id="about">
+        <h1>About</h1>
+    </div>
+    <div class="book" id="service">
+        <h1>Service</h1>
+    </div>
+    <div class="book" id="contact">
+       <a href="/day2/form.html" style="text-decoration: none;"><h1>Form</h1></a> 
+    </div>
+</section>
+</body>
+</html>

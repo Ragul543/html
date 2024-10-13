@@ -1,0 +1,80 @@
+<!-- 12/10/24 -->
+ <!-- Box model -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 330px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .margin{
+            
+            background-color: rgb(201, 231, 140);
+            width: 420px;
+            height: 420px;
+            position: absolute;
+            padding-left: 20px;
+            text-align: center;
+            
+            
+        }
+        .margin:hover{
+            background-color: rgb(172, 230, 57);
+        }
+        .border{
+            background-color: rgb(172, 167, 201);
+            width: 360px;
+            height: 330px;
+            position: absolute;
+            align-items: center;
+            padding-left: 20px;
+            text-align: center;
+        }
+        .border:hover{
+            background-color: rgb(101, 85, 192);
+        }
+        .pad{
+        background-color: rgb(230, 154, 154);
+            width: 320px;
+            height: 230px;
+            position: absolute;
+            align-items: center;
+            text-align: center;}
+         .pad:hover{
+            background-color: rgb(228, 74, 74);
+         }   
+        .content{
+            background-color: rgb(56, 236, 101);
+            width: 230px;
+            height: 80px; 
+            position: absolute;
+            align-items: center;
+            text-align: center;
+        }
+        .content:active{
+            background-color: rgb(17, 160, 216);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3 class="margin">margin
+            <h3 class="border">border
+                <h3 class="pad">pad
+                    <h3 class="content">
+                        content
+                    </h3>
+                </h3>
+            </h3>
+         </h3>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+*{padding:0;
+    margin:0;}
+.navbar-brand{
+    font-weight: 700;
+    color: white;
+}    
+span{color: rgb(33, 247, 33);}
+.dropdown-item:hover{
+color: green;background-color: black;
+font-weight: 700;
+}
+.btn{font-weight:450;}
+h5{
+    font-weight: 700;}
+.ppic{font-weight: 700;}
+.row h4{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;  
+}
+.row p{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;  
+}
